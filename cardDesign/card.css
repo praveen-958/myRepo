@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #f5f5dc;
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.parent {
+    border: 2px solid #000000;
+    width: 325px;
+    height: 80vh;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image img {
+    width: 315px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    border-radius: 15px;
+}
+
+.capsules span {
+    border: 1px solid gray;
+    display: inline-block;
+    padding: 5px;
+    /* padding-left: 40px; */
+    border-radius: 14px;
+    margin: 8px;
+}
+
+#gap {
+    margin-left: 10px;
+}
+
+.heading {
+    display: inline-block;
+    margin: 5px;
+}
+
+.details {
+    display: inline-block;
+    margin: 5px;
+}
+
+.button {
+    text-align: center;
+    /* text-align: center; */
+}
+
+.button button {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+button:hover {
+    color: #db3f34;
+    box-shadow: 2px 2px 12px gray;
+    cursor: pointer;
+}
